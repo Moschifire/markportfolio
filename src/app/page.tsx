@@ -1,5 +1,5 @@
-import ProjectCard from "@/components/ProjectCard";
-import { projects } from "@/data/projects";
+import ProjectCard from "../components/ProjectCard";
+import { projects } from "../data/projects";
 
 export default function Home() {
   return (
@@ -31,7 +31,7 @@ export default function Home() {
 
       {/* Simple Footer */}
       <footer className="max-w-6xl mx-auto px-6 py-20 border-t border-zinc-900 text-zinc-500 text-sm">
-        © {new Date().getFullYear()} Your Name. Built with Next.js.
+        © {new Date().getFullYear()} Mark Oladeinde. Built with Next.js.
       </footer>
     </main>
   );

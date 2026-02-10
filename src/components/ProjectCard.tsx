@@ -1,7 +1,7 @@
 "use client"
 import { motion } from "framer-motion";
 import { ExternalLink, CheckCircle2 } from "lucide-react";
-import { Project } from "@/data/projects";
+import { Project } from "../data/projects";
 
 export default function ProjectCard({ project }: { project: Project }) {
   return (
