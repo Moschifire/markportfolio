@@ -5,6 +5,8 @@ export interface Project {
   tech: string[];
   link: string;
   features: string[];
+  isFlagship?: boolean;
+  image?: string;
 }
 
 export const projects: Project[] = [
@@ -26,10 +28,15 @@ export const projects: Project[] = [
   },
   {
     id: "aurae",
-    title: "Aurae",
-    description: "A premium e-commerce experience for luxury goods with a robust administrative backbone.",
-    tech: ["Next.js","Tailwind CSS", "Mongoose", "MongoDB", "Admin Dashboard"],
+    title: "AURAÉ",
+    isFlagship: true,
+    description: "Aurae isn't just a storefront; it's a scalable business platform. I engineered a robust MongoDB architecture to handle complex luxury inventory, paired with a custom administrative suite that provides real-time business insights and role-based control.",
+    tech: ["Next.js", "Tailwind CSS", "Mongoose", "MongoDB", "Admin Dashboard"],
     link: "https://aurae-six.vercel.app/",
-    features: ["Inventory Management", "Secure Checkout", "Business Analytics Dashboard"]
+    image: "/aurae-admin.png",
+    features: ["Advanced Inventory & Analytics Dashboard",
+      "Dynamic Luxury Product Filtering",
+      "Secure Paystack Integration",
+      "Role-Based Admin Access"]
   }
 ];
