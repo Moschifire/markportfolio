@@ -40,3 +40,11 @@ export const projects: Project[] = [
       "Role-Based Admin Access"]
   }
 ];
+
+export const contactInfo = {
+  name: "Mark Oladeinde",
+  role: "Full-stack Developer",
+  email: "markoladeinde@gmail.com",
+  github: "https://github.com/moschifire",
+  linkedin: "https://www.linkedin.com/in/mark-oladeinde-595612369/",
+};
