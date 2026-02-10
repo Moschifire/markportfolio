@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://your-portfolio-url.com",
+    url: "https://markportfolio-delta.vercel.app/",
     title: `${contactInfo.name} | Portfolio`,
     description: "Showcasing Aurae, SEMAFC, and advanced web applications.",
     siteName: `${contactInfo.name} Portfolio`,
